@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: prints all the numbers of base 16 in lowercase, followed by a new line
+ * Description: prints all single digit numbers of base 8
+ * starting from 0, followed by a new line.
  * Return: Always 0 (Success)
  */
 int main(void)
