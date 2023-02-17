@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: prints all possible combinations of single-digit numbers.
+ * Description: prints all possible combinations of 1digits
  * followed by a new line.
  * Return: 0
  */
