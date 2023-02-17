@@ -8,20 +8,16 @@
  */
 int main(void)
 {
-        int c[10] = {0,1,2,3,4,5,6,7,8,9};
-        int i;
-        for ( i = 0; i <10 ; ++i)
-        {
+	int n;
 
-                putchar(48 + c[i]);
-                if (c[i] != 9)
-                {
-                        putchar(',');
-                        putchar(' ');
-                }
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%i is positive\n", n);
+	else if (n < 0)
+		printf("%i is negative\n", n);
+	else
+		printf("%i is zero\n", n);
 
-        }
-
-        putchar('\n');
-        return (0);
+	return (0);
 }
