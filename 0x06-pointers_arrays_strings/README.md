@@ -71,3 +71,22 @@ Write a function that encodes a string into 1337.
 - You can only use two loops in your code
 - You are not allowed to use switch
 - You are not allowed to use any ternary operation
+
+## 8. rot13
+Write a function that encodes a string using rot13.
+
+- Prototype: char *rot13(char *);
+- You can only use if statement once in your code
+- You can only use two loops in your code
+- You are not allowed to use switch
+- You are not allowed to use any ternary operatio
+
+## 9. Numbers have life; they're not just symbols on paper
+
+Write a function that prints an integer.
+
+- Prototype: void print_number(int n);
+- You can only use _putchar function to print
+- You are not allowed to use long
+- You are not allowed to use arrays or pointers
+- You are not allowed to hard-code special values
